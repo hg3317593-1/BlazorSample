@@ -1,7 +1,7 @@
 ﻿@page "/GraphExample"
 @using Microsoft.AspNetCore.Authorization
 @using Microsoft.Graph
-
+@attribute [Authorize]
 @inject GraphServiceClient GraphClient
 
 <h3>Graph Client Example</h3>
